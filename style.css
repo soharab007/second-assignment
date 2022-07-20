@@ -1,0 +1,404 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+
+
+}
+
+/*   top banner style start  */
+
+.top-banner {
+    border-radius: 25px;
+    display: flex;
+    background-color: black;
+    width: 80%;
+    height: 70vh;
+    padding: 30px 40px 0px 40px;
+    color: white;
+    margin-left: 8%;
+    margin-top: 5%;
+    overflow: hidden;
+    margin-bottom: 3%;
+}
+
+.top-info {
+    padding-left: 5%;
+    width: 50%;
+    padding-bottom: 5%;
+
+}
+
+.top-info h2 {
+
+    font-size: 70px;
+
+}
+
+.top-info a {
+
+    text-decoration: none;
+    margin-bottom: 10px;
+    padding: 10px 15px;
+    background-color: rgb(255, 102, 0);
+    color: white;
+    border-radius: 5px;
+}
+
+.top-info a:hover {
+    background-color: brown;
+    transition: .5s;
+}
+
+.top-image {
+    width: 50%;
+
+}
+
+.top-image img {
+    width: 90%;
+
+}
+
+/*   top banner style ended  */
+/*   middle part style start  */
+
+.middle-part {
+    width: 80%;
+    display: flex;
+    margin-left: 8%;
+    height: 1200px;
+    margin-right: 8%;
+}
+
+.menu {
+    height: 400px;
+    width: 300px;
+    background-color: black;
+    border-radius: 10px;
+}
+
+.link-buttons {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.link-button {
+    text-align: center;
+    font-size: 22px;
+    margin-top: 30px;
+    text-decoration: none;
+    padding: 15px 20px;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.button-red {
+    background-color: red;
+    color: white;
+}
+
+.blog {
+    border: 1px solid rgba(128, 128, 128, 0.63);
+    border-radius: 12px;
+
+}
+
+.blogs {
+    display: grid;
+    margin-left: 5%;
+
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 5%;
+    grid-column-gap: 8%;
+
+}
+
+.blog img {
+    margin-bottom: 10px;
+}
+
+.blog p {
+    display: inline-block;
+}
+
+.blog a {
+
+    text-decoration: none;
+    color: black;
+    padding: 5px 10px;
+    border: 2px solid black;
+    display: inline-block;
+}
+
+.blog h3 {
+    display: inline-block;
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+
+.blog .fa-message {
+    padding-left: 50px;
+}
+
+.blog-info {
+    display: inline-block;
+    padding-left: 15px;
+}
+
+.last-view {
+    text-decoration: none;
+    padding: 10px 15px;
+    background: brown;
+    color: white;
+    width: 100px;
+    border-radius: 15px;
+    text-align: center;
+    display: none;
+}
+
+/*   middle part style start  */
+/*   footer section style start  */
+
+footer {
+    margin-top: 100px;
+    padding-top: 50px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+
+}
+
+.link a {
+
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+
+}
+
+.social-link {
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.social a {
+    color: white;
+    text-decoration: none;
+    padding-left: 20px;
+
+}
+
+/*   footer section style ended  */
+/*   responsive design start  */
+
+@media only screen and (max-width:688px) {
+    .top-banner {
+        display: flex;
+        flex-direction: column;
+        overflow: visible;
+        width: 350px;
+        margin-left: px;
+        padding-bottom: 0;
+        min-height: 700px;
+        justify-content: space-between;
+    }
+
+    .top-info {
+        position: relative;
+        left: 60px;
+        text-align: center;
+    }
+
+    .top-info h2 {
+        font-size: 30px;
+    }
+
+    .top-info p {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .top-image img {
+        width: 200px;
+        padding-left: 100px;
+
+    }
+
+    .middle-part {
+        display: flex;
+        flex-direction: column;
+
+
+
+    }
+
+    .menu {
+        width: 100%;
+        padding-left: 30px;
+
+    }
+
+    .link-button {
+        margin-left: 50px;
+    }
+
+    .blogs {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 50px;
+        margin-left: 0;
+        margin-top: 50px;
+        width: 400px;
+    }
+
+    .blogs img {
+        width: 100%;
+    }
+
+    footer {
+        margin-top: 3500px;
+    }
+
+    .links {
+        flex-direction: column;
+
+    }
+}
+
+@media only screen and (min-width:689px) and (max-width:992px) {
+    .top-banner {
+        display: flex;
+        height: 500px;
+        overflow: hidden;
+        width: 670px;
+        margin-left: 7px;
+        padding-bottom: 0;
+    }
+
+    .top-info {
+        padding-left: 5px;
+    }
+
+    .top-info h2 {
+        font-size: 50px;
+    }
+
+    .top-image img {
+        position: relative;
+        width: 350px;
+        left: 30px;
+        top: 140px;
+
+    }
+
+    .middle-part {
+        flex-direction: column;
+    }
+
+    .menu {
+        background-color: white;
+
+    }
+
+
+    .link-buttons {
+        flex-direction: row;
+        width: auto;
+        height: auto;
+    }
+
+    .link-button {
+        border: 1px solid grey;
+        text-align: left;
+        font-size: 15px;
+        margin-left: 10px;
+        padding: 10px 70px;
+    }
+
+    .blogs {
+
+        display: grid;
+
+        grid-template-columns: repeat(2, 1fr);
+        grid-row-gap: 50px;
+        margin-left: 0px;
+        margin-right: px;
+        margin-top: 50px;
+
+    }
+
+    .last-view {
+        display: block;
+        height: 30px;
+        margin-top: 300px;
+    }
+
+    footer {
+        margin-top: 1300px;
+        padding-bottom: 200px;
+    }
+
+    .links {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-row-gap: 20px;
+    }
+
+}
+
+
+@media only screen and (min-width:1024px) and (max-width:1370px) {
+    .top-banner {
+        width: 1020px;
+    }
+
+    .top-info h2 {
+        font-size: 40px;
+    }
+
+
+
+    .blogs {
+        grid-row-gap: 20px;
+        grid-column-gap: 3%;
+        margin-left: 20px;
+    }
+
+    .blog {
+        width: 275px;
+    }
+
+    .blog img {
+        width: 275px;
+    }
+
+    .menu {
+        width: 200px;
+        height: 270px;
+    }
+
+    .link-buttons {
+        width: 200px;
+        height: 300px;
+    }
+
+    .link-button {
+        font-size: 20px;
+        margin-top: 15px;
+    }
+}
+
+/*   responsive design ended  */
