@@ -1,6 +1,7 @@
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
+    padding: 0;
 
 }
 
@@ -22,7 +23,7 @@ body {
 
 .top-info {
     padding-left: 5%;
-    padding-top: 8%;
+    padding-top: 5%;
     width: 50%;
 
 }
@@ -43,7 +44,7 @@ body {
 }
 
 .top-info a:hover {
-    background-color: brown;
+    background-color: rgb(127, 105, 168);
     transition: .5s;
 }
 
@@ -60,11 +61,12 @@ body {
 /*  top banner style start  */
 /*  middle part style start  */
 
+
 .middle-part {
     width: 80%;
     display: flex;
     margin-left: 8%;
-    height: 1200px;
+    height: 700px;
     margin-right: 8%;
 }
 
@@ -101,19 +103,20 @@ body {
 }
 
 
+
 .matches {
     display: grid;
+    margin-left: 5%;
     grid-template-columns: repeat(3, 1fr);
     grid-row-gap: 4%;
-    height: 200px;
+
 
 }
 
 
 .match {
-    width: px;
-    padding: 50px 30px;
-    padding-right: px;
+    height: 200px;
+    padding: 20px 10px;
     margin-left: 30px;
     border: 1px solid pink;
     border-radius: 5px;
@@ -142,7 +145,7 @@ body {
 /*  footer section style start  */
 
 footer {
-    margin-top: px;
+    margin-top: 50px;
     padding-top: 50px;
     text-align: center;
     background-color: black;
@@ -217,16 +220,22 @@ footer {
     .middle-part {
         display: flex;
         flex-direction: column;
+        margin-top: 30px;
     }
 
     .menu {
         width: 100%;
         padding-left: 30px;
         margin-left: px;
+        background: none;
+
     }
 
-    .button {
+    .link-button {
         margin-left: 50px;
+        border: 3px solid pink;
+        padding-top: 10px;
+
     }
 
     .matches {
@@ -235,12 +244,13 @@ footer {
     }
 
     .match {
-        margin-top: 50px;
+        margin-top: 30px;
         margin-left: 5px;
+
     }
 
     footer {
-        margin-top: 1500px;
+        margin-top: 1700px;
         margin-left: 0;
     }
 
@@ -256,8 +266,8 @@ footer {
         height: 500px;
         overflow: hidden;
         width: 670px;
-        margin-left: 8px;
-        padding-bottom: 0;
+        margin-left: 20px;
+        padding-bottom: 5%;
     }
 
     .top-info {
@@ -276,8 +286,11 @@ footer {
 
     }
 
+
     .middle-part {
         flex-direction: column;
+        height: 600px;
+
     }
 
     .menu {
@@ -302,11 +315,13 @@ footer {
     .matches {
         grid-template-columns: repeat(2, 1fr);
         height: 200px;
+        margin-bottom: 50px;
 
     }
 
     .match {
         margin-left: 10px;
+
 
 
     }
@@ -355,7 +370,6 @@ footer {
         padding: 50px 5px;
     }
 
-    .match-top-part {}
 
     .match-top-part img {
         width: 78px;

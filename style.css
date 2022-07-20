@@ -1,6 +1,7 @@
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
+    padding: 0;
 
 
 }
@@ -45,7 +46,7 @@ body {
 }
 
 .top-info a:hover {
-    background-color: brown;
+    background-color: rgb(85, 85, 173);
     transition: .5s;
 }
 
@@ -70,8 +71,9 @@ body {
     margin-right: 8%;
 }
 
+
 .menu {
-    height: 400px;
+    height: 300px;
     width: 300px;
     background-color: black;
     border-radius: 10px;
@@ -149,10 +151,14 @@ body {
     padding-left: 15px;
 }
 
+.blog-info a {
+    border-radius: 10px;
+}
+
 .last-view {
     text-decoration: none;
     padding: 10px 15px;
-    background: brown;
+    background: green;
     color: white;
     width: 100px;
     border-radius: 15px;
@@ -248,11 +254,13 @@ footer {
     .menu {
         width: 100%;
         padding-left: 30px;
+        background: none;
 
     }
 
     .link-button {
         margin-left: 50px;
+        border: 3px solid pink;
     }
 
     .blogs {
@@ -340,14 +348,18 @@ footer {
 
     }
 
+    #invisible {
+        visibility: hidden;
+    }
+
     .last-view {
         display: block;
         height: 30px;
-        margin-top: 300px;
+
     }
 
     footer {
-        margin-top: 1300px;
+        margin-top: 1000px;
         padding-bottom: 200px;
     }
 
